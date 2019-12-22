@@ -48,7 +48,7 @@ def secondMaxValue(numbers):
 
 class Test(unittest.TestCase):
 
-    array1 = ["4", "4", "4"]
+    array1 = ["3", "-2"]
     array2 = ["5", "5", "4", "2"]
     array3 = ["4", "4", "4"]
     array4 = []
@@ -58,7 +58,7 @@ class Test(unittest.TestCase):
         Class to test the secondMaxValue function
         """
         result = secondMaxValue(self.array1)
-        self.assertEqual("-1", result)
+        self.assertEqual("-2", result)
         result = secondMaxValue(self.array2)
         self.assertEqual("4", result)
         result = secondMaxValue(self.array3)
