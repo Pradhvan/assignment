@@ -4,7 +4,7 @@
 A placeholder repository to share coding assignment question(s).
 
 ### Prerequisite
-* Pyhthon 3.6 or above
+* Python 3.6 or above
 
 ### How to run the program ? 
 
